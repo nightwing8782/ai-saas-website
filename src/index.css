@@ -2,39 +2,39 @@
 
 :root {
   /* Brand Colors */
-  --c-primary: #6C5CE7;
-  --c-primary-dark: #5A4FCF;
+  --c-primary: #FF69B4;
+  --c-primary-dark: #FF1493;
   --c-secondary: #8F85F3;
   --c-secondary-light: #A29BFE;
-  
+
   /* Neutrals */
   --c-bg: #F7F5F0;
   --c-bg-alt: #FBF8F4;
   --c-white: #FFFFFF;
   --c-black: #1A1A1A;
-  
+
   /* Text */
   --c-text-main: #2B2B2B;
   --c-text-muted: #5A5A5A;
-  
+
   /* Accents */
   --c-accent: #F5F000;
-  
+
   /* Fonts */
   --font-heading: 'Poppins', sans-serif;
   --font-body: 'Montserrat', sans-serif;
-  
+
   /* Shadows */
   --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 12px 24px rgba(108, 92, 231, 0.08);
   --shadow-lg: 0 24px 48px rgba(108, 92, 231, 0.12);
-  
+
   /* Border Radius */
   --radius-sm: 8px;
   --radius-md: 16px;
   --radius-lg: 24px;
   --radius-full: 9999px;
-  
+
   /* Transitions */
   --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -54,7 +54,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   line-height: 1.2;
   color: var(--c-black);
