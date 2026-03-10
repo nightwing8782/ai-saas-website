@@ -1,0 +1,47 @@
+.social-proof {
+    padding: 64px 0;
+    background-color: var(--c-white);
+    border-top: 1px solid rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+    text-align: center;
+}
+
+.social-proof-label {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-text-muted);
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+
+.logo-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+@media (min-width: 768px) {
+    .logo-flex {
+        gap: 64px;
+    }
+}
+
+.company-logo {
+    filter: grayscale(100%) opacity(0.5);
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.company-logo:hover {
+    filter: grayscale(0%) opacity(1);
+}
+
+.logo-placeholder {
+    font-family: var(--font-heading);
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: var(--c-text-muted);
+}
